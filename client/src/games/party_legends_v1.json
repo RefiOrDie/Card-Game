@@ -1,0 +1,66 @@
+{
+    "id": "party_legends_v1",
+    "name": "Party Legends: Selfie Showdown",
+    "author": "host_device_uuid",
+    "created": "2025-04-27T20:00:00Z",
+    "theme": "House-party brawl",
+    "cards": [
+      {
+        "id": "card_alice",
+        "type": "player",
+        "name": "DJ Alice",
+        "image": "/uploads/selfies/alice.jpg",
+        "stats": { "Energy": 7, "Charm": 9 },
+        "trait": "Dancer",
+        "ability": "Bass Drop – once per game, stun all opponents (-2 Energy) before comparison."
+      },
+      {
+        "id": "card_bob",
+        "type": "player",
+        "name": "Bob the Gamer",
+        "image": "/uploads/selfies/bob.jpg",
+        "stats": { "Energy": 6, "Charm": 5 },
+        "trait": "Gamer",
+        "ability": "Combo Breaker – reroll one die each round."
+      },
+      {
+        "id": "card_chloe",
+        "type": "player",
+        "name": "Charming Chloe",
+        "image": "/uploads/selfies/chloe.jpg",
+        "stats": { "Energy": 5, "Charm": 10 },
+        "trait": "Comedian",
+        "ability": "Mic Drop – steal 1 Charm from the round winner."
+      },
+      {
+        "id": "item_pizza",
+        "type": "item",
+        "name": "Grease-Slice Pizza",
+        "image": "/uploads/items/pizza.jpg",
+        "effect": "Eat for +3 Energy this round, but -1 Charm next round."
+      },
+      {
+        "id": "item_disco",
+        "type": "item",
+        "name": "Spinning Disco Ball",
+        "image": "/uploads/items/disco.jpg",
+        "effect": "Grant +4 Charm to the user this round."
+      },
+      {
+        "id": "item_soda",
+        "type": "item",
+        "name": "Hyper-Fizz Soda",
+        "image": "/uploads/items/soda.jpg",
+        "effect": "Chug for +2 Energy every round until the game ends, then get -2 Charm in the final round."
+      }
+    ],
+    "rules": {
+      "players": "4-12",
+      "turnPhases": ["Pick", "Flip", "Resolve", "Cleanup"],
+      "duelFormula": "Energy + Charm (+ modifiers)",
+      "abilitiesOrder": "activate ascending by card id",
+      "winCondition": "First player to collect 3 Win Tokens",
+      "tieBreaker": "Both tied cards stay on table; each tied player rolls a d6—highest gains +2 Energy only for tie break."
+    }
+  }
+  
