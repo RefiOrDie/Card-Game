@@ -5,7 +5,7 @@ import { Card } from '../models/card';
 
 @Injectable({ providedIn: 'root' })
 export class GameService {
-  private api = 'http://localhost:3000/api';
+  private api = 'https://fantastic-eureka-wpqrqjqqqp7cjjw-3000.app.github.dev/api';
 
   constructor(private http: HttpClient) {}
 
