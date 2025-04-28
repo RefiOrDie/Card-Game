@@ -10,6 +10,8 @@ Date: April 27th, 2025
 
 ## Team
 
+![Michael & Huan](./michael-huan.webp)
+
 Michael <https://github.com/RefiOrDie>
 Huan <https://github.com/huan>
 
